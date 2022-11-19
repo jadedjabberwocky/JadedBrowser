@@ -53,6 +53,7 @@
             this.txtBaseDir.TabIndex = 1;
             this.txtBaseDir.DragDrop += new System.Windows.Forms.DragEventHandler(this.DragDrop);
             this.txtBaseDir.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragEnter);
+            this.txtBaseDir.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBaseDir_KeyPress);
             // 
             // txtSearch
             // 
@@ -66,6 +67,7 @@
             this.txtSearch.TabIndex = 2;
             this.txtSearch.DragDrop += new System.Windows.Forms.DragEventHandler(this.DragDrop);
             this.txtSearch.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragEnter);
+            this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_KeyPress);
             // 
             // imageList1
             // 

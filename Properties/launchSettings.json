@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "jadedbrowser": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\warren\\Documents\\jadedjabberwocky\\maker stuff\""
+    }
+  }
+}
